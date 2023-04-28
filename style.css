@@ -1,0 +1,263 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+	
+}
+.header{
+	height: auto;
+	width: 100%;
+	background-color: #9c88ff;
+
+}
+.navbar-brand{
+	font-size: 40px;
+	font-family: gilroy;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+.nav-item a{
+	font-family: gilroy;
+	font-weight: bold;
+
+}
+.dropdown-menu{
+	background: transparent;
+	border: none;
+}
+.dropdown-menu a{
+	color: whitesmoke;
+
+}
+.dropdown-menu a:hover{
+	color: white;
+	background: #9c88ff;
+	
+}
+ a.nav-link:hover{
+	
+	border-radius: 5px;
+	text-decoration: none;
+	color: white  !important;
+}
+.header-text{
+	height: 500px;
+	width: 100%;
+}
+.header-h2{
+	font-family: gilroy;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	top: 100px;
+}
+.header-p{
+	font-family: gilroy;
+    font-size: 70px;
+    position: relative;
+    top: 100px;
+ }
+ .header-text a{
+	border: 1px solid #e67e22;
+	border-radius: 100px;
+	background-color: #e67e22;
+	color: white;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: 100px;
+}
+.header-text a:hover{
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 lightgray;
+}
+.header-img{
+	background-image: url("mohit.png");
+	background-size: 100% 100%;
+	height: 570px;
+	width: 100%;
+}
+/*******section service css start****/
+
+.service-section{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-family: poppins;
+
+}
+.service-icon{
+	
+	background-color: white;
+	border: medium one;
+	padding: 50px!important;
+	border-radius: 3px;
+	transition: 0.3s;
+	margin: 100px 0;
+}
+.service-icon:hover{
+	box-shadow: 0 0 20px 0 lightgray;
+	transform: translateY(-20px);
+}
+/*******section service css closed****/
+
+/*******section offer css start****/
+.offer-section{
+	background: whitesmoke;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+
+
+
+/*******section offer css closed****/
+
+/*******section offer css start****/
+.offer-section{
+	background: whitesmoke;
+	padding: 50px 0;
+	margin-bottom: 50px;
+	font-family: poppins;
+
+}
+.offer-div{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	line-height: 20px;
+}
+.offer-icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*******section offer css closed****/
+
+/*******awards css start****/
+.project-work{
+	margin: 100px 0;
+}
+.project-work h1{
+	font-size: 2rem;
+	text-align: center;
+}
+/*******awards css end****/
+
+/*******gallery css start****/
+.gallery{
+	background-color: whitesmoke;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.item-gallery{
+	height: auto !important;
+	width: 100%;
+	border: 2px solid none;
+	padding: 10px;
+	margin: 10px auto;
+	transition: transform .2s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	filter: grayscale(50%);
+}
+.item-gallery:hover{
+	transform: scale(1.1);
+	filter: grayscale(0%);
+}
+/*******gallery css end****/
+/*******contact css start****/
+.contact{
+
+	width: 100%;
+	height: auto !important;
+	padding: 50px 0px;
+	position: relative;
+}
+.form-button button{
+	border: 1px solid none;
+	border-radius: 100px;
+	color: white;
+	margin: 0 5px;
+	padding: 12px 35px;
+	outline: none;
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+/*******contact css end****/
+/*******newsletters css start****/
+
+.newsletters{
+	width: 100%;
+	height: auto;
+	margin: 30px auto;
+}
+.news-input{
+	border-radius: 100px 0px 0px 100px !important;
+}
+
+/*******newsletters css end****/
+/*******fotter css start****/
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background:#9c88ff;
+	position: relative;
+}
+.footersection h3{
+	color: white;
+	margin-bottom: 25px;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.footersection p{
+	color: #fff;
+}
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.9;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+}
+#mybtn{
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	color: white;
+	background: #00abff;
+	padding: 10px;
+	border-radius: 10px;
+}
+#mybtn:hover{
+	background: gray;
+}
+/*******fotter css end****/
+@media(max-width: 78px){
+	.contact{
+		height: auto;
+
+	}
+	.offer-section{
+		text-align: center;
+		margin-left: 20px;
+
+	}
+}

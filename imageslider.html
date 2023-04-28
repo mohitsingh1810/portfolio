@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image slider</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+			height: 100%;
+		}
+		h1{
+			font-family: poppins;
+			font-size: 40px;
+			text-align: center;
+			justify-content: center;
+			text-transform: uppercase;
+
+		}
+		div{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Image slider</h1>
+<div id="mm"><img id="nn" height="500px" width="80%"></div>
+</body>
+<script>
+	var imgslider = ['11.jpg','22.jpg','33.jpg'],
+	start = 0;
+	duration = 3000;
+
+	function slider(){
+		document.getElementById('nn').src = imgslider[start];
+		start++;
+		if (start == imgslider.length) {start = 0;}
+		setTimeout("slider()",duration);	
+	}
+	slider();
+</script>
+</html>
